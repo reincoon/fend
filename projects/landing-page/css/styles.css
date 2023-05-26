@@ -68,22 +68,41 @@ section {
     padding-left: 0;
     margin: 0;
     text-align: right;
+    background-color: #abccf8;
 }
 
 .navbar__menu li {
     display: inline-block;
+    margin: 0.5em;
+    background-color: #081966;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 35em){
+    .navbar__menu li {
+        margin: 0.1em;
+        padding: 0;
+    }
 }
 
 .navbar__menu .menu__link {
     display: block;
-    padding: 1em;
+    padding: 0.5em;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: #dceffc;
 }
 
-.navbar__menu .menu__link:hover {
-    background: #333;
+.navbar__menu .menu__link:hover{
+    background: #020b30;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0.1em;
+    transition: ease 0.3s all;
+}
+.navbar__menu .active {
+    background: #735eff;
+    border-radius: 10px;
     color: #fff;
     transition: ease 0.3s all;
 }
