@@ -1,13 +1,19 @@
 # Landing Page Project
-
+This project is created in Vanilla JavaScript without any framework to practice the interaction with browser events.
 ## Table of Contents
+*css
+--style.css
+*js
+--app.js
+*index.html
+*readme
 
 * [Instructions](#instructions)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The starter project was provided by Udacity: https://github.com/udacity/fend/tree/refresh-2019.
 
-To get started, open `js/app.js` and start building out the app's functionality
+File `js/app.js` consists of self built app's functionality.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+
