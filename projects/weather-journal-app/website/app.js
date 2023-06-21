@@ -1,6 +1,6 @@
 /* Global Variables */
 const baseURL = 'https://api.openweathermap.org/data/2.5/weather';
-const apiKey = 'a017c0f46e284252c34f5195db496856&units=imperial';
+const apiKey = 'a017c';
 
 /===================================================/
 
