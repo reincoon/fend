@@ -8,24 +8,40 @@
     "build-prod": "webpack --config webpack.prod.js",
     "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "setupFilesAfterEnv": [
+      "./_test_/setupTests.js"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.17.1",
-    "webpack": "^5.20.0",
-    "webpack-cli": "^3.3.12",
-    "meaningcloud": "^3.0.0"
+    "express": "^4.18.2",
+    "jest": "^29.5.0",
+    "node-fetch": "^3.3.1",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
-    "babel-loader": "^8.0.6",
-    "clean-webpack-plugin": "^3.0.0",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
-    "jest": "^29.5.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
     "webpack-dev-server": "^4.15.1"
   }
 }

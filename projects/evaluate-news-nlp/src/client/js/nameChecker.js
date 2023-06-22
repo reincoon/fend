@@ -13,4 +13,9 @@ function checkForName(inputText) {
     }
 }
 
+// function onBlur(){
+//     console.log("onBlur");
+
+// }
+
 export { checkForName }
