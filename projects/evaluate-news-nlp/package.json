@@ -16,7 +16,8 @@
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "webpack": "^5.20.0",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.12",
+    "meaningcloud": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
