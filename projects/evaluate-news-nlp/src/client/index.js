@@ -13,16 +13,16 @@ console.log("CHANGE!!");
 
 
 
-window.addEventListener("DOMContentLoaded", () => {
-    const buttonSubmit = document.getElementById("submit-button");
-    buttonSubmit.addEventListener("click", function (event) {
-        event.preventDefault();
-        let logger = document.getElementById("logger");
-        console.log("::: Form Submitted :::");
-        buttonSubmit.disabled = true;
-        logger.innerText = "Working...";
-        handleSubmit();
-    });
-});
+// window.addEventListener("DOMContentLoaded", () => {
+//     const buttonSubmit = document.getElementById("submit-button");
+//     buttonSubmit.addEventListener("click", function (event) {
+//         event.preventDefault();
+//         let logger = document.getElementById("logger");
+//         console.log("::: Form Submitted :::");
+//         buttonSubmit.disabled = true;
+//         logger.innerText = "Working...";
+//         handleSubmit();
+//     });
+// });
 
 export { checkForName, handleSubmit };

@@ -10,13 +10,16 @@ var bodyParser = require('body-parser')
 const fetch = require("node-fetch")
 
 // Call api
-var textapi = process.env.API_KEY
+const textapi = process.env.API_KEY
 const cors = require('cors')
 const app = express()
 
 app.use(express.static('dist'))
 app.use(cors())
 app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ 
+    extended: true 
+}))
 
 console.log(__dirname)
 
